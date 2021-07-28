@@ -1,0 +1,15 @@
+
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "xkaple00/zero-shot-classification-7-frontend",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 8501,
+      "HostPort": 8501
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
